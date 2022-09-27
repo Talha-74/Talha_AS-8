@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    min-height: 200vh;
+    width: 100vw;
+}
+
+
+h1 {
+    font-family: 'Mansalva', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin: 10px;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 5px;
+    text-align: center;
+}
+
+ #about {
+    position: relative;
+    top: 0;
+    left: 0;
+} 
+
+.navbar {
+    width: 100vw;
+    background-color: #1e1452;
+    
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+    
+}
+
+.navbar a {
+    /* color: white; */
+    padding: 0 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+.navbar a:link {
+    color: white;
+}
+.navbar a:visited {
+    color: rgb(255, 255, 254);
+}
+.navbar a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+.navbar a:active {
+    color: red;
+}
+
+.welcome-section {
+    height: 100vh;
+  
+}
+
+.welcome-text {
+    margin: 35vh auto 0;
+}
+#projects {
+    padding-top: 140px;
+    height: fit-content;
+}
+
+.project-wrapper {
+gap: 15px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    box-sizing: border-box;
+    justify-items: stretch;
+}
+
+.project-title {
+border: 3pt solid #394140;
+height: 350px;
+margin: 0 15px;
+padding: 12px;
+text-align: center;
+/* font-weight: bold; */
+}
+
+
+.project-image {
+    
+    width: 250px;
+    height: 50%;
+    margin: 10px;
+}
+
+#contact {
+    padding-top: 260px;
+    font-size: larger;
+   
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    /* margin: 30px; */
+    flex-direction: column;
+}
+
+ul li {
+    text-decoration: none;
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+li:first-child:hover {
+    background-color: aqua;
+}
+
+li:last-child:hover {
+    background-color: aqua;
+}
+li:nth-child(2):hover {
+    background-color: aqua;
+}
+li:nth-child(3):hover {
+    background-color: aqua;
+}
+
+
+
